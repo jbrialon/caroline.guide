@@ -48,9 +48,9 @@ body {
 
 #app h1 {
   color: white;
-  font-size: 5rem;
+  font-size: 2.5rem;
   border: 4px solid white;
-  padding: 1.5rem 5rem;
+  padding: 1.5rem 1.5rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   text-shadow: 0px 0px 10px #000000;
@@ -59,11 +59,22 @@ body {
 #app h2 {
   color: white;
   font-size: 2.5rem;
+  padding: 0 2.5rem;
+  text-shadow: 0px 0px 10px #000000;
 }
 
 #app p {
   font-style: italic;
   color: white;
   font-size: 2.5rem;
+  padding: 0 2.5rem;
+  text-shadow: 0px 0px 10px #000000;
+}
+
+@media screen and (min-width: 48em) {
+  #app h1 {
+    font-size:5rem;
+    padding: 1.5rem 5rem;
+  }
 }
 </style>
