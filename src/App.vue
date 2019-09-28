@@ -7,7 +7,7 @@
       Accompagnatrice en montagne
     </h2>
     <p>
-      "S'eloigner de tout pour se rapprocher de l'essentiel"
+      "S'éloigner de tout pour se rapprocher de l'essentiel."
     </p>
   </div>
 </template>
