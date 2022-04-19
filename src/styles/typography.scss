@@ -1,0 +1,33 @@
+@import "mixins";
+
+body {
+    @include font-size($fs-base-html);
+
+    font-weight: $fw-normal;
+    font-family: $ff-primary;
+    color: $c-black;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing: antialiased; /* WebKit  */
+  }
+  
+  // 1rem = 10px
+  html {
+    font-size: $global-font-size;
+
+    b,
+    strong {
+      font-weight: $fw-bold;
+    }
+  }
+
+  h2 {
+    @include font-size($fs-h2);
+
+    font-weight: $fw-bold;
+  }
+
+  h3 {
+    @include font-size($fs-h3);
+
+    font-weight: $fw-bold;
+  }

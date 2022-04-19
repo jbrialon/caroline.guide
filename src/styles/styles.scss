@@ -1,0 +1,19 @@
+@import "normalize.css";
+@import "vars";
+@import "typography";
+@import "helpers";
+@import "./node_modules/foundation-sites/scss/foundation";
+
+// Zurb Foundation Grid
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+@include foundation-text-alignment;
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}

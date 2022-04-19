@@ -1,0 +1,28 @@
+//  Fonts Sizes
+//  Options are (font-size in rem, line-height no unit, letter-spacing in rem)
+//
+@import "../functions";
+
+$fs-breakpoints: (
+  small: (minWidth: map-get($breakpoints, small)), // mobile
+  medium: (minWidth: map-get($breakpoints, medium)), // tablet
+  large: (minWidth: map-get($breakpoints, large)) // desktop
+);
+
+$fs-base-html: (
+  small: (rem-calc(14px), 1.6, normal),
+  medium: (rem-calc(14px), 1.6, normal),
+  large: (rem-calc(16px), 1.8, normal)
+);
+
+$fs-h2: (
+  small: (rem-calc(30px), 1.2992, normal),
+  medium: (rem-calc(38px), 1.2992, normal),
+  large: (rem-calc(45px), 1.2992, normal)
+);
+
+$fs-h3: (
+  small: (rem-calc(25px), 1.3328, normal),
+  medium: (rem-calc(30px), 1.3328, normal),
+  large: (rem-calc(35px), 1.3328, normal)
+);
