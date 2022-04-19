@@ -15,6 +15,12 @@ $fs-base-html: (
   large: (rem-calc(16px), 1.8, normal)
 );
 
+$fs-h1: (
+  small: (rem-calc(50px), 1.232, 0.1rem),
+  medium: (rem-calc(52px),1.232, 0.1rem),
+  large: (rem-calc(64px), 1.232, 0.1rem)
+);
+
 $fs-h2: (
   small: (rem-calc(30px), 1.2992, normal),
   medium: (rem-calc(38px), 1.2992, normal),
@@ -25,4 +31,10 @@ $fs-h3: (
   small: (rem-calc(25px), 1.3328, normal),
   medium: (rem-calc(30px), 1.3328, normal),
   large: (rem-calc(35px), 1.3328, normal)
+);
+
+$fs-p: (
+  small: (rem-calc(18px), 1.8, normal),
+  medium: (rem-calc(20px), 1.8, normal),
+  large: (rem-calc(22px), 1.8, normal)
 );

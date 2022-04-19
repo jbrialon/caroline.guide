@@ -3,12 +3,14 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import CHeader from './components/Header.vue'
 import SectionIntro from './components/Intro.vue'
+import SectionPresentation from './components/Presentation.vue'
 </script>
 
 <template>
   <div id="app">
     <c-header></c-header>
     <section-intro></section-intro>
+    <section-presentation></section-presentation>
   </div>
 </template>
 
