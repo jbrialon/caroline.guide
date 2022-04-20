@@ -13,7 +13,7 @@
           <h3>
              Accompagnatrice en montagne 
           </h3>
-          <p>
+          <p class="quote">
             "S'éloigner de tout pour se rapprocher de l'essentiel." 
           </p>
         </div>
@@ -58,7 +58,7 @@
     flex-direction: column;
     text-align: center;
     z-index: 10;
-    
+
     @include breakpoint(medium) {
       justify-content: flex-end;
       text-align: left;

@@ -53,6 +53,7 @@ export default {
   left: 0;
   right: 0;
   color: $c-white;
+  z-index: 10;
 
   @include breakpoint (medium) {
     display: block;

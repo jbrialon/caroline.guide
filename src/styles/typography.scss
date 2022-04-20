@@ -47,3 +47,7 @@ body {
   p {
     @include font-size($fs-p);
   }
+
+  .quote {
+    @include font-size($fs-quote);
+  }

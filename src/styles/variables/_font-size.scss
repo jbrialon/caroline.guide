@@ -34,6 +34,12 @@ $fs-h3: (
 );
 
 $fs-p: (
+  small: (rem-calc(14px), 1.8, normal),
+  medium: (rem-calc(16px), 1.8, normal),
+  large: (rem-calc(16px), 1.8, normal)
+);
+
+$fs-quote: (
   small: (rem-calc(18px), 1.8, normal),
   medium: (rem-calc(20px), 1.8, normal),
   large: (rem-calc(22px), 1.8, normal)
