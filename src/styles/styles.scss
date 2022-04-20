@@ -18,3 +18,12 @@
     box-sizing: border-box;
   }
 }
+
+img[lazy] {
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+img[lazy=loaded] {
+  opacity: 1;
+  transform: translate(0);
+}

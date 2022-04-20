@@ -51,3 +51,9 @@ body {
   .quote {
     @include font-size($fs-quote);
   }
+
+  a {
+    @include font-size($fs-p);
+
+    color: inherit;
+  }

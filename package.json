@@ -10,7 +10,8 @@
   "dependencies": {
     "foundation-sites": "^6.7.4",
     "normalize.css": "^8.0.1",
-    "vue": "^3.2.25"
+    "vue": "^3.2.25",
+    "vue3-lazyload": "^0.2.5-beta"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^2.3.1",
