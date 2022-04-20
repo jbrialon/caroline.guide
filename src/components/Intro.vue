@@ -28,7 +28,7 @@
   position: relative;
   width: 100vw;
   height: 80vh;
-  background-image: url('../src/assets/background-3.jpg');
+  background-image: url('@/assets/background-3.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
