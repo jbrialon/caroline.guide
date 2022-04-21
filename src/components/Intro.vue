@@ -26,6 +26,7 @@ import backgroundUrl from '@/assets/background-3.jpg'
 
 .intro {
   position: relative;
+  z-index: 5;
   width: 100vw;
   height: 80vh;
   background-size: cover;

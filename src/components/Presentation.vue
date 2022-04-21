@@ -1,5 +1,6 @@
 <script setup>
-import imageUrl from '@/assets/background-3.jpg'
+import image1 from '@/assets/presentation/image-1.jpg'
+import image2 from '@/assets/presentation/image-2.jpg'
 </script>
 
 <template>
@@ -13,7 +14,7 @@ import imageUrl from '@/assets/background-3.jpg'
         </div>
       </div>
       <div class="grid-x presentation__subsection">
-        <div class="cell small-12 medium-5 medium-offset-1">
+        <div class="cell small-12 medium-4 medium-offset-1">
           <p>
             Les mulets et les chevaux ont été utilisés pendant des siècles pour transporter des charges sur les routes et chemins de montagne.
             Aujourd’hui, la plupart des transports en milieu difficile d'accès sont effectués en hélicoptère.
@@ -22,14 +23,14 @@ import imageUrl from '@/assets/background-3.jpg'
           </p>
         </div>
         <div class="cell small-12 medium-5 medium-offset-1">
-          <img v-lazy="imageUrl" alt="">
+          <img v-lazy="image1" alt="">
         </div>
       </div>
       <div class="grid-x presentation__subsection">
         <div class="cell small-12 medium-5 medium-offset-1 small-order-2 medium-order-1">
-          <img v-lazy="imageUrl" alt="">
+          <img v-lazy="image2" alt="">
         </div>
-        <div class="cell small-12 medium-5 medium-offset-1 small-order-1 medium-order-2">
+        <div class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2">
           <p>
             Les travaux de portage en montagne sont effectués sur tous types de terrain sauf pierriers infranchissables et falaises, afin de remplacer les engins motorisés ou d'accèder là où aucune mécanique n'irait.
             Mon Badou et moi même déposerons le matériel, où vous le souhaitez, quand vous en avez besoin.
@@ -64,16 +65,27 @@ import imageUrl from '@/assets/background-3.jpg'
     padding-top: 6.6vmax;
     text-align: center;
 
-    @include breakpoint (medium) {
-      text-align: left;
+    p {
+      text-align: center;
+      padding-bottom: 6.6vmax;
+
+      @include breakpoint (medium) {
+        text-align: justify;
+        padding-bottom: 0;
+      }
+    }
+    img {
+      display: block;
+      width: 100%;
     }
 
     &--last {
       text-align: center;
-    }
 
-    img {
-      width: 100%;
+      p {
+        text-align: center;
+        padding-bottom: 0;
+      }
     }
   }
   
