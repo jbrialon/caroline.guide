@@ -18,7 +18,7 @@ import image5 from '@/assets/presentation/image-5.jpg'
           <p>
             Les mulets et les chevaux ont été utilisés pendant des siècles pour transporter des charges sur les routes et chemins de montagne.
             Aujourd’hui, la plupart des transports en milieu difficile d'accès sont effectués en hélicoptère.
-            Avec Badou nous vous proposons une alternative écologique afin de répondre à une demande croissante de portages de la part des gardiens de refuges, des éleveurs, des particuliers et bien d'autres...
+            Avec Badou et Ikso nous vous proposons une alternative écologique afin de répondre à une demande croissante de portages de la part des gardiens de refuges, des éleveurs, des particuliers et bien d'autres...
             Nous avons donc commencé les portages avec mon mulet, en été 2020 dans la vallée de l'Ubaye.
           </p>
         </div>
