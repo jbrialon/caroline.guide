@@ -64,6 +64,11 @@ import backgroundUrl from '@/assets/background-3.jpg'
       text-align: left;
       margin-bottom: 6vw;
     }
+
+    h1 {
+      line-height: 1;
+      padding-bottom: 2rem;
+    }
   }
 }
 </style>
