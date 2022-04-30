@@ -3,6 +3,7 @@
 @import "typography";
 @import "helpers";
 @import "buttons";
+@import "transitions";
 @import "./node_modules/foundation-sites/scss/foundation";
 
 // Zurb Foundation Grid
@@ -21,7 +22,7 @@
 
 img[lazy] {
   opacity: 0;
-  transition: opacity 300ms ease-in-out;
+  transition: opacity 0.5s ease;
 }
 img[lazy=loaded] {
   opacity: 1;

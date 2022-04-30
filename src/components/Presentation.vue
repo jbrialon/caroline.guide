@@ -1,6 +1,6 @@
 <script setup>
 import image1 from '@/assets/presentation/image-1.jpg'
-import image2 from '@/assets/presentation/image-2.jpg'
+import image4 from '@/assets/presentation/image-4.jpg'
 </script>
 
 <template>
@@ -28,7 +28,7 @@ import image2 from '@/assets/presentation/image-2.jpg'
       </div>
       <div class="grid-x presentation__subsection">
         <div class="cell small-12 medium-5 medium-offset-1 small-order-2 medium-order-1">
-          <img v-lazy="image2" alt="">
+          <img v-lazy="image4" alt="">
         </div>
         <div class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2">
           <p>
