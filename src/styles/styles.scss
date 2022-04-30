@@ -1,0 +1,30 @@
+@import "normalize.css";
+@import "vars";
+@import "typography";
+@import "helpers";
+@import "buttons";
+@import "transitions";
+@import "./node_modules/foundation-sites/scss/foundation";
+
+// Zurb Foundation Grid
+@include foundation-xy-grid-classes;
+@include foundation-flex-classes;
+@include foundation-visibility-classes;
+@include foundation-text-alignment;
+
+* {
+  &,
+  &::before,
+  &::after {
+    box-sizing: border-box;
+  }
+}
+
+img[lazy] {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+img[lazy=loaded] {
+  opacity: 1;
+  transform: translate(0);
+}

@@ -1,0 +1,59 @@
+@import "mixins";
+
+body {
+    @include font-size($fs-base-html);
+
+    font-weight: $fw-normal;
+    font-family: $ff-primary;
+    color: $c-black;
+    -moz-osx-font-smoothing: grayscale;   /* Firefox */
+    -webkit-font-smoothing: antialiased; /* WebKit  */
+  }
+  
+  // 1rem = 10px
+  html {
+    font-size: $global-font-size;
+
+    b,
+    strong {
+      font-weight: $fw-bold;
+    }
+  }
+
+  h1 {
+    @include font-size($fs-h1);
+
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    @include font-size($fs-h2);
+
+    font-weight: $fw-bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    @include font-size($fs-h3);
+
+    font-weight: $fw-bold;
+    margin: 0;
+    padding: 0;
+  }
+
+  p {
+    @include font-size($fs-p);
+  }
+
+  .quote {
+    @include font-size($fs-quote);
+  }
+
+  a {
+    @include font-size($fs-p);
+
+    color: inherit;
+  }
