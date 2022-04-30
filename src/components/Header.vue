@@ -1,6 +1,4 @@
 <script>
-// import Snap from 'snapsvg';
-
 export default {
   name: "Header",
   data () {
