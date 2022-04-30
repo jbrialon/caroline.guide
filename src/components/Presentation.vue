@@ -33,7 +33,7 @@ import image5 from '@/assets/presentation/image-5.jpg'
         <div class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2">
           <p>
             Les travaux de portage en montagne sont effectués sur tous types de terrain sauf pierriers infranchissables et falaises, afin de remplacer les engins motorisés ou d'accèder là où aucune mécanique n'irait.
-            Mon Badou et moi même déposerons le matériel, où vous le souhaitez, quand vous en avez besoin.
+            Mon Badou, Ikso et moi même déposerons le matériel, où vous le souhaitez, quand vous en avez besoin.
             Que ce soit des vivres, du gaz, du bois, du sel, du sable, du ciment, du matériel fragile, des piquets, des clôtures... nous trouvons la solution adaptée de portage animal pour vous.
           </p>
         </div>
