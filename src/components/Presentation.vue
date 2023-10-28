@@ -1,48 +1,67 @@
 <script setup>
-import image1 from '@/assets/presentation/image-1.jpg'
-import image5 from '@/assets/presentation/image-5.jpg'
+import image1 from "@/assets/presentation/image-1.jpg";
+import image5 from "@/assets/presentation/image-5.jpg";
 </script>
 
 <template>
   <section id="presentation" class="presentation">
     <div class="grid-container">
-      <div class="grid-x">
-        <div class="cell small-12 medium-12">
-          <h3>
-            Portage en montagne dans la Vallée de l'Ubaye
-          </h3>
-        </div>
-      </div>
       <div class="grid-x presentation__subsection">
         <div class="cell small-12 medium-4 medium-offset-1">
+          <h3>Balade au fil de l'eau - 1h</h3>
           <p>
-            Les mulets et les chevaux ont été utilisés pendant des siècles pour transporter des charges sur les routes et chemins de montagne.
-            Aujourd’hui, la plupart des transports en milieu difficile d'accès sont effectués en hélicoptère.
-            Avec Badou et Ikso nous vous proposons une alternative écologique afin de répondre à une demande croissante de portages de la part des gardiens de refuges, des éleveurs, des particuliers et bien d'autres...
-            Nous avons donc commencé les portages avec mon mulet, en été 2020 dans la vallée de l'Ubaye.
+            Au départ du plan d’eau de Rioclar. Venez profiter d’une balade le
+            long de la rivière nous offrant de jolis points de vue sur
+            l'Ubaye<br />
+            30€/adulte 20€/enfant
           </p>
         </div>
         <div class="cell small-12 medium-5 medium-offset-1">
-          <img v-lazy="image1" alt="">
+          <img v-lazy="image1" alt="" />
         </div>
       </div>
+
       <div class="grid-x presentation__subsection">
-        <div class="cell small-12 medium-5 medium-offset-1 small-order-2 medium-order-1">
-          <img v-lazy="image5" alt="">
+        <div
+          class="cell small-12 medium-5 medium-offset-1 small-order-2 medium-order-1"
+        >
+          <img v-lazy="image5" alt="" />
         </div>
-        <div class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2">
+        <div
+          class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2"
+        >
+          <h3>Balade dans le vallon de Rioclar - 1h</h3>
           <p>
-            Les travaux de portage en montagne sont effectués sur tous types de terrain sauf pierriers infranchissables et falaises, afin de remplacer les engins motorisés ou d'accèder là où aucune mécanique n'irait.
-            Mon Badou, Ikso et moi même déposerons le matériel, où vous le souhaitez, quand vous en avez besoin.
-            Que ce soit des vivres, du gaz, du bois, du sel, du sable, du ciment, du matériel fragile, des piquets, des clôtures... nous trouvons la solution adaptée de portage animal pour vous.
+            Au départ de Rioclar, venez prendre le temps de découvrir un joli
+            vallon de montagne marqué par le pastoralisme <br />
+            30€/adulte 20€/enfant
           </p>
         </div>
       </div>
-      <div class="grid-x presentation__subsection presentation__subsection--last">
+
+      <div class="grid-x presentation__subsection">
+        <div class="cell small-12 medium-4 medium-offset-1">
+          <h3>Balade gourmande - 3h</h3>
+          <p>
+            Au départ de Rioclar, venez déguster un petit panier de produits
+            locaux lors d'une balade dans le vallon, au rythme des chevaux
+            <br />
+            65€/adulte 35€/enfant<br />
+            Possibilité de privatiser la calèche pour un couple : 100 €/pers
+          </p>
+        </div>
+        <div class="cell small-12 medium-5 medium-offset-1">
+          <img v-lazy="image1" alt="" />
+        </div>
+      </div>
+
+      <div
+        class="grid-x presentation__subsection presentation__subsection--last"
+      >
         <div class="small-12 medium-8 medium-offset-2">
           <p>
-            Les devis de portage en montagne, inclueront le travail du meneur, le transport (A/R) du mulet, la mise en préparation des charges, ainsi que les frais de déplacement.
-            N'hesitez pas à me contacter pour plus d'informations.
+            Balade en musique - supplément 20 € <br />
+            Prestations mariages et évènementielles - à définir ensemble
           </p>
         </div>
       </div>
@@ -51,7 +70,6 @@ import image5 from '@/assets/presentation/image-5.jpg'
 </template>
 
 <style lang="scss" scoped>
-
 .presentation {
   position: relative;
   color: $c-black;
@@ -65,11 +83,16 @@ import image5 from '@/assets/presentation/image-5.jpg'
     padding-top: 6.6vmax;
     text-align: center;
 
+    h3 {
+      @include breakpoint(medium) {
+        text-align: left;
+      }
+    }
     p {
       text-align: center;
       padding-bottom: 6.6vmax;
 
-      @include breakpoint (medium) {
+      @include breakpoint(medium) {
         text-align: justify;
         padding-bottom: 0;
       }
@@ -89,6 +112,5 @@ import image5 from '@/assets/presentation/image-5.jpg'
       }
     }
   }
-  
 }
 </style>

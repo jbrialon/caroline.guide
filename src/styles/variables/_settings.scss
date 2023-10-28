@@ -60,7 +60,7 @@
 //  55. Top Bar
 //  56. Xy Grid
 
-@import './node_modules/foundation-sites/scss/util/util';
+@import "./node_modules/foundation-sites/scss/util/util";
 
 // 1. Global
 // ---------
@@ -89,10 +89,9 @@ $grid-container: $global-width;
 $grid-columns: 12;
 $grid-margin-gutters: (
   small: 40px,
-  medium: 30px
+  medium: 30px,
 );
 $grid-padding-gutters: $grid-margin-gutters;
 $grid-container-padding: $grid-padding-gutters;
 $grid-container-max: $global-width;
 $xy-block-grid-max: 8;
-

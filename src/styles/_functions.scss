@@ -4,14 +4,13 @@
 
 // Pixel to REM calculator
 @function px-to-rem($px-value, $px-base-value) {
-    @return ($px-value / $px-base-value) * 1rem;
-  }
-  
-  @function calc-lineheight($lh-px-value, $fs-value) {
-    @return ($lh-px-value / $fs-value);
-  }
-  
-  @function unicode($str) {
-    @return unquote("\"") + $str + unquote("\"");
-  }
-  
+  @return ($px-value / $px-base-value) * 1rem;
+}
+
+@function calc-lineheight($lh-px-value, $fs-value) {
+  @return ($lh-px-value / $fs-value);
+}
+
+@function unicode($str) {
+  @return unquote('"') + $str + unquote('"');
+}
