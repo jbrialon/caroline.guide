@@ -5,7 +5,9 @@
     <div class="grid-container">
       <div class="grid-x">
         <div class="cell small-12 medium-12">
-          <p>quote</p>
+          <blockquote cite="https://www.huxley.net/bnw/four.html">
+            <p>S'éloigner de tout pour se rapprocher de l'essentiel.</p>
+          </blockquote>
         </div>
       </div>
     </div>
@@ -15,12 +17,24 @@
 <style lang="scss" scoped>
 .banner {
   position: relative;
-  padding-top: 2.5vmax;
-  padding-bottom: 2.5vmax;
+  padding-top: 8.5vmax;
+  padding-bottom: 8.5vmax;
   background-image: url("@/assets/background-banner.jpg");
   background-position: center center;
   background-size: cover;
-  color: $c-white;
   text-align: center;
+
+  blockquote {
+    margin: 0;
+    color: $c-white;
+  }
+
+  blockquote p::before {
+    content: "« ";
+  }
+
+  blockquote p::after {
+    content: " »";
+  }
 }
 </style>

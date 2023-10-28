@@ -31,7 +31,10 @@ export default {
           <nav>
             <ul>
               <li>
-                <button class="btn btn--primary" @click="nav('presentation')">
+                <button
+                  class="btn btn--primary text-shadow"
+                  @click="nav('presentation')"
+                >
                   Presentation
                 </button>
               </li>
@@ -45,6 +48,25 @@ export default {
                 Voyage Muletier
               </button>
             </li> -->
+              <li>
+                <a
+                  class="btn btn--primary text-shadow"
+                  href="https://www.facebook.com/people/Les-Crini%C3%A8res-des-Cimes/100093817391165/"
+                  target="_blank"
+                  aria-label="liens vers la page facebook des Crinieres des Cimes"
+                >
+                  <svg
+                    height="24"
+                    viewBox="0 0 24 24"
+                    width="24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="m17.525 9h-3.525v-2c0-1.032.084-1.682 1.563-1.682h1.868v-3.18c-.909-.094-1.823-.14-2.738-.138-2.713 0-4.693 1.657-4.693 4.699v2.301h-3v4l3-.001v9.001h4v-9.003l3.066-.001z"
+                    />
+                  </svg>
+                </a>
+              </li>
               <li>
                 <button class="btn btn--secondary" @click="nav('contact')">
                   Contact
@@ -198,6 +220,10 @@ export default {
         li {
           margin: 0;
           text-align: center;
+        }
+
+        svg path {
+          fill: $c-white;
         }
         button {
           color: $c-dark;

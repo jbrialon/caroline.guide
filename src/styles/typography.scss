@@ -48,8 +48,10 @@ p {
   @include font-size($fs-p);
 }
 
+blockquote p,
 .quote {
   @include font-size($fs-quote);
+  font-weight: $fw-bold;
 }
 
 a {

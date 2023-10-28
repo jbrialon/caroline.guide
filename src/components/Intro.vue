@@ -1,17 +1,14 @@
 <script setup>
-import backgroundUrl from "@/assets/background-3.jpg";
+import backgroundUrl from "@/assets/background-top.jpg";
 </script>
 
 <template>
   <section id="intro" class="intro" v-lazy:background-image="backgroundUrl">
     <div class="grid-container height100">
       <div class="grid-x height100">
-        <div class="cell small-12 medium-7 medium-offset-1 intro__content">
-          <h1>Les crinières des cimes</h1>
-          <h3>Vous proposent des balades en calèche</h3>
-          <p class="quote">
-            "S'éloigner de tout pour se rapprocher de l'essentiel."
-          </p>
+        <div class="cell small-12 medium-9 medium-offset-1 intro__content">
+          <h1 class="text-shadow">Les crinières des cimes</h1>
+          <h3 class="text-shadow">Vous proposent des balades en calèche</h3>
         </div>
       </div>
     </div>

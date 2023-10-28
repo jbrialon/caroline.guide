@@ -17,7 +17,7 @@ $fs-breakpoints: (
     (
       minWidth: map-get($breakpoints, large),
     )
-    // desktop,
+    // desktop,,,
 );
 
 $fs-base-html: (
@@ -112,17 +112,17 @@ $fs-p: (
 
 $fs-quote: (
   small: (
-    rem-calc(18px),
+    rem-calc(16px),
     1.8,
     normal,
   ),
   medium: (
-    rem-calc(20px),
+    rem-calc(32px),
     1.8,
     normal,
   ),
   large: (
-    rem-calc(22px),
+    rem-calc(36px),
     1.8,
     normal,
   ),
