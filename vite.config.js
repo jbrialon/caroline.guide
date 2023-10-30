@@ -1,9 +1,8 @@
-import { defineConfig } from 'vite'
-import path from "path"
-import vue from '@vitejs/plugin-vue'
+import path from "path";
+import vue from "@vitejs/plugin-vue";
 
 // https://vitejs.dev/config/
-export default defineConfig({
+export default {
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "/src"),
@@ -14,8 +13,8 @@ export default defineConfig({
     preprocessorOptions: {
       scss: {
         additionalData: `@import "./src/styles/additionalData.scss";`,
-      }
-    }
+      },
+    },
   },
-  plugins: [vue()]
-})
+  plugins: [vue()],
+};

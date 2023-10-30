@@ -23,9 +23,20 @@
 
 img[lazy] {
   opacity: 0;
-  transition: opacity 0.5s ease;
+  transition: all 600ms ease;
 }
-img[lazy="loaded"] {
+
+img.right[lazy] {
+  transform: translateX(15%);
+}
+
+img.left[lazy] {
+  transform: translateX(-15%);
+}
+
+img[lazy="loaded"],
+img.left[lazy="loaded"],
+img.right[lazy="loaded"] {
   opacity: 1;
   transform: translate(0);
 }
