@@ -105,7 +105,7 @@ export default {
             <nav>
               <ul>
                 <li>
-                  <button class="btn btn--primary" @click="nav('presentation')">
+                  <button class="btn btn--primary" @click="nav('SectionOne')">
                     Presentation
                   </button>
                 </li>
