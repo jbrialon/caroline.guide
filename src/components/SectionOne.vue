@@ -1,7 +1,7 @@
 <script setup>
 import image1 from "@/assets/presentation/image-1.jpg";
 import image2 from "@/assets/presentation/image-2.jpg";
-import image3 from "@/assets/presentation/image-3.jpg";
+import image3 from "@/assets/presentation/image-8.jpg";
 </script>
 
 <template>
