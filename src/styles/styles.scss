@@ -27,11 +27,17 @@ img[lazy] {
 }
 
 img.right[lazy] {
-  transform: translateX(15%);
+  transform: translateY(-15%);
+  @include breakpoint(medium) {
+    transform: translateX(15%);
+  }
 }
 
 img.left[lazy] {
-  transform: translateX(-15%);
+  transform: translateY(-15%);
+  @include breakpoint(medium) {
+    transform: translateX(-15%);
+  }
 }
 
 img[lazy="loaded"],
