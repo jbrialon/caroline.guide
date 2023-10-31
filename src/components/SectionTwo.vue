@@ -3,6 +3,8 @@ import image4 from "@/assets/presentation/image-4.jpg";
 import image5 from "@/assets/presentation/image-5.jpg";
 import image6 from "@/assets/presentation/image-6.jpg";
 import image7 from "@/assets/presentation/image-7.jpg";
+import image8 from "@/assets/presentation/image-8.jpg";
+import image9 from "@/assets/presentation/image-9.jpg";
 </script>
 
 <template>
@@ -58,7 +60,7 @@ import image7 from "@/assets/presentation/image-7.jpg";
 
       <div class="grid-x section__subsection">
         <div class="cell small-12 medium-5 small-order-2 medium-order-1">
-          <img v-lazy="image5" class="left" alt="" />
+          <img v-lazy="image7" class="left" alt="" />
         </div>
         <div
           class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2 center-content"
@@ -84,13 +86,13 @@ import image7 from "@/assets/presentation/image-7.jpg";
           </p>
         </div>
         <div class="cell small-12 medium-6 medium-offset-1">
-          <img v-lazy="image6" class="right" alt="" />
+          <img v-lazy="image8" class="right" alt="" />
         </div>
       </div>
 
       <div class="grid-x section__subsection">
         <div class="cell small-12 medium-5 small-order-2 medium-order-1">
-          <img v-lazy="image7" class="left" alt="" />
+          <img v-lazy="image9" class="left" alt="" />
         </div>
         <div
           class="cell small-12 medium-4 medium-offset-1 small-order-1 medium-order-2 center-content"
