@@ -7,6 +7,9 @@ import backgroundUrl from "@/assets/background-top.jpg";
     <div class="grid-container height100">
       <div class="grid-x height100">
         <div class="cell small-12 medium-9 medium-offset-1 intro__content">
+          <a href="#" class="intro__logo">
+            <img src="logo.png" alt="logo de la Crinieres des Cimes" />
+          </a>
           <h1 class="text-shadow">Les crinières des cimes</h1>
           <h3 class="text-shadow">Vous proposent des balades en calèche</h3>
         </div>
@@ -40,6 +43,14 @@ import backgroundUrl from "@/assets/background-top.jpg";
 
     @include breakpoint(medium) {
       display: none;
+    }
+  }
+
+  &__logo img {
+    max-width: 200px;
+    width: 100%;
+    @include breakpoint(medium) {
+      max-width: 220px;
     }
   }
 

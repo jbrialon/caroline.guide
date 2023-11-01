@@ -13,7 +13,7 @@
           </a>
         </div>
         <div class="cell small-12 medium-3">
-          <a href="tel:+336 07 08 09 10"> +336 07 08 09 10 </a>
+          <a href="tel:+336 30 97 23 61">+336 30 97 23 61</a>
         </div>
       </div>
     </div>
