@@ -1,21 +1,18 @@
 <script setup>
-import backgroundUrl from '@/assets/background-3.jpg'
+import backgroundUrl from "@/assets/background-top.jpg";
+import Logo from "@/assets/logo.png";
 </script>
 
 <template>
   <section id="intro" class="intro" v-lazy:background-image="backgroundUrl">
     <div class="grid-container height100">
       <div class="grid-x height100">
-        <div class="cell small-12 medium-7 medium-offset-1 intro__content">
-          <h1>
-            Caroline Brialon
-          </h1>
-          <h3>
-             Accompagnatrice en montagne 
-          </h3>
-          <p class="quote">
-            "S'éloigner de tout pour se rapprocher de l'essentiel." 
-          </p>
+        <div class="cell small-12 medium-9 medium-offset-1 intro__content">
+          <a href="#" class="intro__logo">
+            <img :src="Logo" alt="logo de la Crinieres des Cimes" />
+          </a>
+          <h1 class="text-shadow">Les crinières des cimes</h1>
+          <h3 class="text-shadow">Vous proposent des balades en calèche</h3>
         </div>
       </div>
     </div>
@@ -23,7 +20,6 @@ import backgroundUrl from '@/assets/background-3.jpg'
 </template>
 
 <style lang="scss" scoped>
-
 .intro {
   position: relative;
   z-index: 5;
@@ -38,8 +34,8 @@ import backgroundUrl from '@/assets/background-3.jpg'
     position: absolute;
     content: "";
     display: block;
-    background: $c-black;;
-    opacity: .15;
+    background: $c-black;
+    opacity: 0.15;
     top: 0;
     left: 0;
     right: 0;
@@ -48,6 +44,14 @@ import backgroundUrl from '@/assets/background-3.jpg'
 
     @include breakpoint(medium) {
       display: none;
+    }
+  }
+
+  &__logo img {
+    max-width: 200px;
+    width: 100%;
+    @include breakpoint(medium) {
+      max-width: 220px;
     }
   }
 

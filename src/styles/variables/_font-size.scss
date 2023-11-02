@@ -4,43 +4,126 @@
 @import "../functions";
 
 $fs-breakpoints: (
-  small: (minWidth: map-get($breakpoints, small)), // mobile
-  medium: (minWidth: map-get($breakpoints, medium)), // tablet
-  large: (minWidth: map-get($breakpoints, large)) // desktop
+  small: (
+    minWidth: map-get($breakpoints, small),
+  ),
+  // mobile
+  medium:
+    (
+      minWidth: map-get($breakpoints, medium),
+    ),
+  // tablet
+  large:
+    (
+      minWidth: map-get($breakpoints, large),
+    )
+    // desktop,,,,
 );
 
 $fs-base-html: (
-  small: (rem-calc(14px), 1.6, normal),
-  medium: (rem-calc(14px), 1.6, normal),
-  large: (rem-calc(16px), 1.8, normal)
+  small: (
+    rem-calc(14px),
+    1.6,
+    normal,
+  ),
+  medium: (
+    rem-calc(14px),
+    1.6,
+    normal,
+  ),
+  large: (
+    rem-calc(16px),
+    1.8,
+    normal,
+  ),
 );
 
 $fs-h1: (
-  small: (rem-calc(50px), 1.232, 0.1rem),
-  medium: (rem-calc(52px),1.232, 0.1rem),
-  large: (rem-calc(64px), 1.232, 0.1rem)
+  small: (
+    rem-calc(50px),
+    1.232,
+    0.1rem,
+  ),
+  medium: (
+    rem-calc(52px),
+    1.232,
+    0.1rem,
+  ),
+  large: (
+    rem-calc(64px),
+    1.232,
+    0.1rem,
+  ),
 );
 
 $fs-h2: (
-  small: (rem-calc(30px), 1.2992, normal),
-  medium: (rem-calc(38px), 1.2992, normal),
-  large: (rem-calc(45px), 1.2992, normal)
+  small: (
+    rem-calc(30px),
+    1.2992,
+    normal,
+  ),
+  medium: (
+    rem-calc(38px),
+    1.2992,
+    normal,
+  ),
+  large: (
+    rem-calc(45px),
+    1.2992,
+    normal,
+  ),
 );
 
 $fs-h3: (
-  small: (rem-calc(25px), 1.3328, normal),
-  medium: (rem-calc(30px), 1.3328, normal),
-  large: (rem-calc(35px), 1.3328, normal)
+  small: (
+    rem-calc(25px),
+    1.3328,
+    normal,
+  ),
+  medium: (
+    rem-calc(30px),
+    1.3328,
+    normal,
+  ),
+  large: (
+    rem-calc(35px),
+    1.3328,
+    normal,
+  ),
 );
 
 $fs-p: (
-  small: (rem-calc(14px), 1.8, normal),
-  medium: (rem-calc(16px), 1.8, normal),
-  large: (rem-calc(16px), 1.8, normal)
+  small: (
+    rem-calc(14px),
+    1.8,
+    normal,
+  ),
+  medium: (
+    rem-calc(18px),
+    1.8,
+    normal,
+  ),
+  large: (
+    rem-calc(18px),
+    1.8,
+    normal,
+  ),
 );
 
 $fs-quote: (
-  small: (rem-calc(18px), 1.8, normal),
-  medium: (rem-calc(20px), 1.8, normal),
-  large: (rem-calc(22px), 1.8, normal)
+  small: (
+    rem-calc(16px),
+    1.8,
+    normal,
+  ),
+  medium: (
+    rem-calc(32px),
+    1.8,
+    normal,
+  ),
+  large: (
+    rem-calc(36px),
+    1.8,
+    normal,
+  ),
 );
