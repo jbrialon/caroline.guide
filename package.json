@@ -2,6 +2,7 @@
   "name": "caroline.guide",
   "private": true,
   "version": "0.2.0",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -10,16 +11,12 @@
   "dependencies": {
     "foundation-sites": "^6.7.4",
     "normalize.css": "^8.0.1",
-    "vue": "^3.3.4",
+    "vue": "^3.3.11",
     "vue3-lazyload": "^0.3.8"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^4.4.0",
+    "@vitejs/plugin-vue": "^4.5.2",
     "sass": "^1.50.1",
-    "vite": "^4.5.0"
-  },
-  "engines": {
-    "node": ">= 18.18.0",
-    "npm": ">= 9.8.1"
+    "vite": "^5.0.12"
   }
 }
