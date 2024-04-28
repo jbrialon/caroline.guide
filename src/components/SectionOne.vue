@@ -11,7 +11,7 @@ import image3 from "@/assets/presentation/image-trois.jpg";
         <div class="cell small-12 medium-5 center-content">
           <h3>Balade au fil de l'eau</h3>
           <span class="section__info">
-            1 heure, 30€ par adulte et 20€ par enfant</span
+            1 heure, 35€ par adulte et 20€ par enfant</span
           >
           <p>
             Au départ du plan d’eau de Rioclar. Venez profiter d’une balade le
@@ -32,7 +32,7 @@ import image3 from "@/assets/presentation/image-trois.jpg";
         >
           <h3>Balade dans le vallon de Rioclar</h3>
           <span class="section__info"
-            >1 heure, 30€ par adulte et 20€ par enfant</span
+            >1 heure, 35€ par adulte et 20€ par enfant</span
           >
           <p>
             Au départ de Rioclar, venez prendre le temps de découvrir un joli
