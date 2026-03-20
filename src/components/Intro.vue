@@ -20,6 +20,8 @@ import Logo from "@/assets/logo.png";
 </template>
 
 <style lang="scss" scoped>
+@use "@/styles/mixins" as *;
+
 .intro {
   position: relative;
   z-index: 5;
@@ -28,13 +30,13 @@ import Logo from "@/assets/logo.png";
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  color: $c-white;
+  color: var(--c-white);
 
   &:after {
     position: absolute;
     content: "";
     display: block;
-    background: $c-black;
+    background: --c-black;
     opacity: 0.15;
     top: 0;
     left: 0;

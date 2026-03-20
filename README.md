@@ -1,18 +1,17 @@
 # Caroline.guide professional activity website
 
-This project is dedicated to creating an online platform that showcases the professional activities and services offered by Caroline
+This project is dedicated to creating an online platform that showcases the professional activities and services offered by Caroline.
 
-## Recommended IDE Setup
+## Getting Started
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+```bash
+npm install
+npm run dev
+```
 
-## Node Version
+## Build
 
-Make sure you have Node.js and npm installed with the following versions:
-
-```json
-"engines": {
-  "node": ">= 18.18.0",
-  "npm": ">= 9.8.1"
-}
+```bash
+npm run build
+npm run preview
 ```

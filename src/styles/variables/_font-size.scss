@@ -1,7 +1,8 @@
 //  Fonts Sizes
 //  Options are (font-size in rem, line-height no unit, letter-spacing in rem)
 //
-@import "../functions";
+@use "../functions" as *;
+@use "settings" as *;
 
 $fs-breakpoints: (
   small: (

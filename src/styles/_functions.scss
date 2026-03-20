@@ -1,14 +1,27 @@
+@use "sass:math";
+
 //
 // Custom Functions
 //
 
 // Pixel to REM calculator
 @function px-to-rem($px-value, $px-base-value) {
-  @return ($px-value / $px-base-value) * 1rem;
+  @return math.div($px-value, $px-base-value) * 1rem;
+}
+
+// Foundation rem-calc replacement
+// Base is 10px because $global-font-size is 62.5% (0.625 * 16px = 10px)
+$rem-base: 10px !default;
+
+@function rem-calc($value) {
+  @if unit($value) == "px" {
+    @return math.div($value, $rem-base) * 1rem;
+  }
+  @return math.div($value, math.div($rem-base, 1px)) * 1rem;
 }
 
 @function calc-lineheight($lh-px-value, $fs-value) {
-  @return ($lh-px-value / $fs-value);
+  @return math.div($lh-px-value, $fs-value);
 }
 
 @function unicode($str) {
