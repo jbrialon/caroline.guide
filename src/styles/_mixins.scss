@@ -1,3 +1,15 @@
+@use "vars" as *;
+
+@mixin breakpoint($name) {
+  @if map-has-key($breakpoints, $name) {
+    @media screen and (min-width: map-get($breakpoints, $name)) {
+      @content;
+    }
+  } @else {
+    @warn "Breakpoint `#{$name}` not found in `$breakpoints`.";
+  }
+}
+
 @mixin font-size($fs-map, $fs-breakpoints: $fs-breakpoints) {
   @each $fs-breakpoint, $fs-font-size in $fs-map {
     @if $fs-breakpoint == null {

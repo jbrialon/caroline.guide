@@ -1,11 +1,15 @@
-@import "normalize.css";
-@import "vars";
-@import "typography";
-@import "helpers";
-@import "sections";
-@import "buttons";
-@import "transitions";
-@import "./node_modules/foundation-sites/scss/foundation";
+@use "normalize.css";
+@use "mixins" as *;
+@use "vars" as *;
+@use "typography";
+@use "helpers";
+@use "sections";
+@use "buttons";
+@use "transitions";
+
+// Foundation 6 still uses @import internally, so it must be loaded via @import
+@import "variables/settings";
+@import "foundation-sites/scss/foundation";
 
 // Zurb Foundation Grid
 @include foundation-xy-grid-classes;

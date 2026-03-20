@@ -23,8 +23,8 @@
 <style lang="scss" scoped>
 .contact {
   position: relative;
-  color: $c-white;
-  background: $c-dark;
+  color: var(--c-white);
+  background: var(--c-dark);
   text-align: left;
   padding-top: 1.3vmax;
   padding-bottom: 1.3vmax;

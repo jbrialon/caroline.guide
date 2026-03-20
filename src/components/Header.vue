@@ -143,12 +143,14 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+@use "@/styles/mixins" as *;
+
 .header {
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  color: $c-white;
+  color: var(--c-white);
   z-index: 10;
 
   nav {
@@ -163,7 +165,7 @@ export default {
     li {
       margin-left: 1.2vw;
       svg path {
-        fill: $c-white;
+        fill: var(--c-white);
       }
 
       button {
@@ -197,7 +199,7 @@ export default {
 
     &--toggle {
       button svg g path {
-        stroke: $c-dark;
+        stroke: var(--c-dark);
       }
     }
     button {
@@ -205,7 +207,7 @@ export default {
       margin-left: auto;
 
       svg path {
-        stroke: $c-white;
+        stroke: var(--c-white);
         transition: all 0.5s ease;
       }
     }
@@ -217,7 +219,7 @@ export default {
     justify-content: center;
     align-items: center;
     z-index: 90;
-    background: $c-white;
+    background: var(--c-white);
     top: 0;
     left: 0;
     right: 0;
@@ -235,11 +237,11 @@ export default {
         }
 
         svg path {
-          fill: $c-dark;
+          fill: var(--c-dark);
         }
 
         button {
-          color: $c-dark;
+          color: var(--c-dark);
           font-size: 2.5rem;
         }
       }

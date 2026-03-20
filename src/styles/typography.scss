@@ -1,4 +1,5 @@
-@import "mixins";
+@use "mixins" as *;
+@use "vars" as *;
 
 body {
   @include font-size($fs-base-html);

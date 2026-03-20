@@ -13,7 +13,12 @@ export default defineConfig({
   css: {
     preprocessorOptions: {
       scss: {
-        additionalData: `@import "./src/styles/additionalData.scss";`,
+        api: "modern-compiler",
+        silenceDeprecations: ["import", "global-builtin", "if-function", "color-functions"],
+        loadPaths: [
+            path.resolve(__dirname, "src/styles"),
+            path.resolve(__dirname, "node_modules"),
+          ],
       },
     },
   },
